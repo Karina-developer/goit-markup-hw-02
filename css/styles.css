@@ -13,6 +13,9 @@ ul {
 /* бэкграунд 1 #2F303A */
 /* бэкграунд 2 #F5F4FA */
 
-.logo {
+.logo-header {
   color: #2196f3;
+}
+.logo-header > .logo-part {
+  color: #000000;
 }
