@@ -36,3 +36,7 @@ ul {
 .contact-menu .link:focus {
   color: #2196f3;
 }
+
+.section-title {
+  color: #212121;
+}
