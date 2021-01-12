@@ -19,3 +19,20 @@ ul {
 .logo-header > .logo-part {
   color: #000000;
 }
+
+/* Site nav */
+
+.site-nav .alink {
+  color: #2196f3;
+}
+.site-nav .link {
+  color: #212121;
+}
+
+.contact-menu .link {
+  color: #757575;
+}
+.contact-menu .link:hover,
+.contact-menu .link:focus {
+  color: #2196f3;
+}
