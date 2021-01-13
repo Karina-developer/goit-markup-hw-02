@@ -40,3 +40,9 @@ ul {
 .section-title {
   color: #212121;
 }
+
+/* Бэкграунд Героя */
+
+.hero-image {
+  background-image: url(/imajes/Bg.jpg);
+}
