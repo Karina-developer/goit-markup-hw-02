@@ -44,5 +44,5 @@ ul {
 /* Бэкграунд Героя */
 
 .hero-image {
-  background-image: url(/imajes/Bg.jpg);
+  background-image: url("../imajes/Bg.jpg");
 }
