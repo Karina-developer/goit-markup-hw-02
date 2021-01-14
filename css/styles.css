@@ -1,4 +1,10 @@
+:root {
+  --accent-color: #2196f3;
+}
+
 body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
   background-color: #ffffff;
   color: #757575;
 }
@@ -13,28 +19,50 @@ ul {
 /* бэкграунд 1 #2F303A */
 /* бэкграунд 2 #F5F4FA */
 
-.logo-header {
+.logotipe-link {
   color: #2196f3;
 }
-.logo-header > .logo-part {
+.logotipe-link > .logotipe-part {
   color: #000000;
 }
 
 /* Site nav */
 
-.site-nav .alink {
-  color: #2196f3;
-}
-.site-nav .link {
+.navigation-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
   color: #212121;
 }
 
-.contact-menu .link {
+.navigation-list-link:hover,
+.navigation-list-link:focus {
+  color: var(--accent-color);
+}
+
+.mailto-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
   color: #757575;
 }
-.contact-menu .link:hover,
-.contact-menu .link:focus {
-  color: #2196f3;
+.mailto-link:hover,
+.mailto-link:focus {
+  color: var(--accent-color);
+}
+
+.tel-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
 }
 
 .section-title {
@@ -43,6 +71,90 @@ ul {
 
 /* Бэкграунд Героя */
 
-.hero-image {
-  background-image: url("../imajes/Bg.jpg");
+.hero {
+  width: 100%;
+  height: 600;
+  background-color: #2f303a;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hero-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* Кнопка */
+
+.modal-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* Преимущества */
+
+.features-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* О НАС */
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* Команда */
+
+.team-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.187;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
