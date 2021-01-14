@@ -20,13 +20,25 @@ ul {
 /* бэкграунд 2 #F5F4FA */
 
 .logotipe-link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
   color: #2196f3;
 }
 .logotipe-link > .logotipe-part {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
   color: #000000;
 }
 
-/* Site nav */
+/* ===========HEADER=============== */
 
 .navigation-list-link {
   font-weight: 500;
@@ -65,17 +77,18 @@ ul {
   color: var(--accent-color);
 }
 
+/* ===========END HEADER=============== */
+
+/* ============HERO=============== */
+
 .section-title {
   color: #212121;
 }
-
-/* Бэкграунд Героя */
 
 .hero {
   width: 100%;
   height: 600;
   background-color: #2f303a;
-  background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -90,6 +103,7 @@ ul {
   text-transform: uppercase;
   color: #ffffff;
 }
+
 /* Кнопка */
 
 .modal-btn {
@@ -105,7 +119,9 @@ ul {
   background-color: var(--accent-color);
 }
 
-/* Преимущества */
+/* ============ END HERO=============== */
+
+/* =============FEATURES============ */
 
 .features-title {
   font-style: normal;
@@ -126,7 +142,9 @@ ul {
   color: #757575;
 }
 
-/* О НАС */
+/* =============END FEATURES============ */
+
+/* =============ABOUT================== */
 .title {
   font-style: normal;
   font-weight: bold;
@@ -137,7 +155,9 @@ ul {
   color: #212121;
 }
 
-/* Команда */
+/* =============END ABOUT================== */
+
+/* ===============TEAM==================== */
 
 .team-title {
   font-style: normal;
@@ -157,4 +177,21 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+/* ===============END TEAM==================== */
+
+footer {
+  width: 100%;
+  height: 600;
+  background: #2f303a;
+}
+
+.footer-map {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
