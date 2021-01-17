@@ -25,24 +25,18 @@ ul {
 
 .logotipe-link {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 .logotipe-link > .logotipe-part {
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.192;
-  letter-spacing: 0.03em;
   color: #000000;
 }
 
-/* ===========HEADER=============== */
+/* ШАПКА */
 
 .navigation-link {
   font-weight: 500;
@@ -83,9 +77,9 @@ ul {
   color: var(--accent-color);
 }
 
-/* ===========END HEADER=============== */
+/* КОНЕЦ ШАПКИ */
 
-/* ============HERO=============== */
+/* ГЕРОЙ */
 
 .section-title {
   color: #212121;
@@ -110,7 +104,7 @@ ul {
   color: #ffffff;
 }
 
-/* Кнопка */
+/* КНОПКА ГЕРОЯ */
 
 .modal-btn {
   font-weight: bold;
@@ -120,9 +114,9 @@ ul {
   background-color: var(--accent-color);
 }
 
-/* ============ END HERO=============== */
+/* КОНЕЦ КНОПКИ ГЕРОЯ */
 
-/* =============FEATURES============ */
+/* ОСОБЕННОСТИ */
 
 .features-title {
   font-style: normal;
@@ -143,9 +137,9 @@ ul {
   color: #757575;
 }
 
-/* =============END FEATURES============ */
+/* КОНЕЦ ОСОБЕННОСТЕЙ */
 
-/* =============ABOUT================== */
+/* О НАС */
 .title {
   font-style: normal;
   font-weight: bold;
@@ -156,9 +150,9 @@ ul {
   color: #212121;
 }
 
-/* =============END ABOUT================== */
+/* КОНЕЦ О НАС */
 
-/* ===============TEAM==================== */
+/* КОМАНДА */
 
 .team-title {
   font-style: normal;
@@ -180,7 +174,7 @@ ul {
   color: #757575;
 }
 
-/* ===============END TEAM==================== */
+/* КОНЕЦ КОМАНДЫ */
 
 footer {
   width: 100%;
@@ -197,7 +191,7 @@ footer {
   color: #ffffff;
 }
 
-/* ===============PORTFOLIO==================== */
+/* ПОРТФОЛИО */
 
 .portfolio-title {
   font-style: normal;
@@ -217,16 +211,16 @@ footer {
   color: #757575;
 }
 
-/* ===============END PORTFOLIO==================== */
+/* КОНЕЦ ПОРТФОЛИО */
 
-/* ===============BUTTON==================== */
+/* КНОПКА ПОРТФОЛИО */
 .portfolio-btn {
   color: #212121;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
-/* ===============END BUTTON=================== */
+/* КОНЕЦ КНОПКИ ПОРТФОЛИО */
