@@ -54,7 +54,6 @@ ul {
 .mailto-link {
   font-weight: 500;
   font-size: 14px;
-  font-style: normal;
   line-height: 1.142;
   letter-spacing: 0.02em;
   color: #757575;
@@ -67,7 +66,6 @@ ul {
 .tel-link {
   font-weight: 500;
   font-size: 14px;
-  font-style: normal;
   line-height: 1.172;
   letter-spacing: 0.02em;
   color: #757575;
@@ -94,7 +92,6 @@ ul {
 }
 
 .hero-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
@@ -119,7 +116,6 @@ ul {
 /* ОСОБЕННОСТИ */
 
 .features-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.142;
@@ -129,8 +125,6 @@ ul {
 }
 
 .description {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -141,7 +135,6 @@ ul {
 
 /* О НАС */
 .title {
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.166;
@@ -155,7 +148,6 @@ ul {
 /* КОМАНДА */
 
 .team-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
@@ -165,8 +157,6 @@ ul {
 }
 
 .team-description {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
@@ -196,8 +186,6 @@ ul {
 }
 
 .footer-map {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
@@ -207,7 +195,6 @@ ul {
 /* ПОРТФОЛИО */
 
 .portfolio-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -216,8 +203,6 @@ ul {
 }
 
 .portfolio-description {
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
