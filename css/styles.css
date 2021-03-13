@@ -1,12 +1,15 @@
 :root {
   --accent-color: #2196f3;
+  --main-color: #212121;
+  --text-decoration-color: #757575;
+  --background-color: #ffffff;
 }
 
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  background-color: #ffffff;
-  color: #757575;
+  background-color: var(--background-color);
+  color: var(--text-decoration-color);
 }
 
 a {
@@ -20,8 +23,8 @@ ul {
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* наведение курсором #2196F3 */
-/* бэкграунд 1 #2F303A */
-/* бэкграунд 2 #F5F4FA */
+/*бэкграунд #ffffff */
+
 
 .logotipe-link {
   font-family: Raleway;
@@ -43,7 +46,7 @@ ul {
   font-size: 14px;
   line-height: 1.172;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .navigation-link:hover,
@@ -56,7 +59,7 @@ ul {
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-decoration-color);
 }
 .mailto-link:hover,
 .mailto-link:focus {
@@ -68,7 +71,7 @@ ul {
   font-size: 14px;
   line-height: 1.172;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-decoration-color);
 }
 .tel-link:hover,
 .tel-link:focus {
@@ -80,7 +83,7 @@ ul {
 /* ГЕРОЙ */
 
 .section-title {
-  color: #212121;
+  color: var(--main-color);
 }
 
 .hero {
@@ -98,7 +101,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 /* КНОПКА ГЕРОЯ */
@@ -121,14 +124,14 @@ ul {
   line-height: 1.142;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .description {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-decoration-color);
 }
 
 /* КОНЕЦ ОСОБЕННОСТЕЙ */
@@ -140,7 +143,7 @@ ul {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 
 /* КОНЕЦ О НАС */
@@ -153,7 +156,7 @@ ul {
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .team-description {
@@ -161,7 +164,7 @@ ul {
   line-height: 1.187;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-decoration-color);
 }
 
 /* КОНЕЦ КОМАНДЫ */
@@ -182,7 +185,7 @@ ul {
   text-decoration: none;
 }
 .footer-logotipe-link > .logotipe-part {
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 .footer-map {
@@ -190,7 +193,7 @@ ul {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--background-color);
 }
 
 /* ПОРТФОЛИО */
@@ -200,14 +203,14 @@ ul {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .portfolio-description {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-decoration-color);
 }
 
 /* КОНЕЦ ПОРТФОЛИО */
@@ -215,11 +218,11 @@ ul {
 /* КНОПКА ПОРТФОЛИО */
 .portfolio-btn {
   font-family: inherit;
-  color: #212121;
+  color: var(--main-color);
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-  color: #ffffff;
+  color: var(--background-color);
   background-color: var(--accent-color);
 }
 
