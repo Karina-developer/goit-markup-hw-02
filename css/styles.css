@@ -214,6 +214,7 @@ ul {
 
 /* КНОПКА ПОРТФОЛИО */
 .portfolio-btn {
+  font-family: inherit;
   color: #212121;
 }
 .portfolio-btn:hover,
