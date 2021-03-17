@@ -25,15 +25,13 @@ ul {
 /* наведение курсором #2196F3 */
 /*бэкграунд #ffffff */
 
-
 .logotipe-link {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  text-decoration: none;
 }
 .logotipe-link > .logotipe-part {
   color: #000000;
@@ -107,7 +105,7 @@ ul {
 /* КНОПКА ГЕРОЯ */
 
 .modal-btn {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.06em;
@@ -119,7 +117,7 @@ ul {
 /* ОСОБЕННОСТИ */
 
 .features-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
   letter-spacing: 0.03em;
@@ -138,7 +136,7 @@ ul {
 
 /* О НАС */
 .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
@@ -177,7 +175,7 @@ ul {
 
 .footer-logotipe-link {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
@@ -199,7 +197,7 @@ ul {
 /* ПОРТФОЛИО */
 
 .portfolio-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
